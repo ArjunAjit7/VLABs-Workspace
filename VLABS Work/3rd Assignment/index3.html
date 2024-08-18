@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Web Page</h1>
+    </header>
+    <div id="introduction">
+        <h2>Introduction</h2>
+        <p>This is the <span style="font-weight: bold;">introduction</span> section of my web page. I have written some <span style="color: blue;">sample text</span> that you can read.</p>
+    </div>
+    <div id="features">
+        <h2>Features</h2>
+        <p>In the <span style="font-style: italic;">features</span> section, you'll find information about the various <span style="color: green;">features</span> of my website.</p>
+    </div>
+    <div id="contact">
+        <h2>Contact</h2>
+        <p>If you want to get in touch, please use the <span style="color: red;">contact</span> information provided on this page.</p>
+    </div>
+    <footer>
+        <p>&copy; <span id="currentYear">2024</span> My Web Page</p>
+        <script>
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+</html>
